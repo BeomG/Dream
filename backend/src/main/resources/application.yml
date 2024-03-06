@@ -1,0 +1,21 @@
+spring:
+#  mvc:
+#    pathmatch:
+#      matching-strategy: ant_path_matcher
+  datasource:
+    url: jdbc:mysql://j9c209.p.ssafy.io:3306/dream
+    username: dreamer
+    password: 175863
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database: mysql
+#    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+

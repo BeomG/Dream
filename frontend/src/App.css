@@ -1,0 +1,42 @@
+html {
+  --black: #282828;
+  --ash-black: #222;
+  --white: #ffffff;
+  --beige: #f2ead3;
+  --beige-dark: #ded7be;
+  --beige-reverse: #0d152c;
+  --brown-white: #efe0bb;
+  --brown: #603808;
+  --brown-dark: #3d2302;
+  --beige-pink: #d8bab1;
+  --dusty-pink: #dbbebb;
+  --dusty-pink-dark: #847070;
+  --dusty-pink-light: #e2d0d0;
+  --dusty-pink-white: #f4ebeb;
+  --vanilla-cream: #f4d7c5;
+  --macciato: #ac8367;
+  --orange: #f98e11;
+  --yellow: #ecd78d;
+  --pink: #f9b4c2;
+  --primary: #006ffd;
+  --success: #5cb85c;
+  --sky: #50bcdf;
+  --coolblue: #bddffa;
+  --bgColor: #f2f5fe;
+}
+
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+@media (min-width: 500px) {
+  .App {
+    width: 500px;
+  }
+}
